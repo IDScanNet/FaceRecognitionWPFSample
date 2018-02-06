@@ -216,6 +216,9 @@ namespace FaceTrackingWpfSample
             Dispatcher.Invoke(() =>
             {                
                 Canvas.Children.Clear();
+                // to avoid memory leak
+                Canvas.UpdateLayout();
+
                 if (trackingInfo.Faces == null) return;                
 
                 foreach (var face in trackingInfo.Faces.OrderBy(t => t.IsRecognized))

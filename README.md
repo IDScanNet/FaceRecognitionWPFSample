@@ -1,1 +1,1 @@
-# FaceTrackingWpfSample
+# Face Recognition C# WPF sample

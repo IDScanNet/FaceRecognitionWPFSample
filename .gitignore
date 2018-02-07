@@ -2,7 +2,10 @@
 # Данный GITIGNORE-файл был автоматически создан Microsoft(R) Visual Studio.
 ################################################################################
 
-/FaceTrackingWpfSample/obj/Debug
+/.vs
 /.vs/FacialRecognitionSamples/v15/Server/sqlite3
 *.suo
 /FaceRecognitionWpfSample/obj/Debug
+/FaceRecognitionWpfSample/bin/Debug
+/packages
+
